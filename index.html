@@ -1,0 +1,124 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link href="/dist/output.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+        <title>Pham Portfolio</title>
+    </head>
+    <body class="font-nunito">
+        <!-- intro section -->
+        <div class="h-1/2 lg:h-screen bg-gradient-to-t from-red-700 relative overflow-hidden">
+            <!-- navbar -->
+            <nav class="w-full fixed top-0 bg-white z-10">
+                <div class="container mx-auto flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <img src="img/logo.webp" class="w-24" alt="logo" />
+                        <span class="text-2xl font-bold text-red">An Pham</span>
+                    </div>
+                    <ul class="hidden md:flex space-x-10 font-bold text-sm uppercase gap-4">
+                        <li class="hover:text-gray-500">
+                            <a href="#">Homepage</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">About Me</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Languages</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Projects</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <span></span>
+                    <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                        <div class="w-6 h-0.5 bg-black"></div>
+                        <div class="w-6 h-0.5 bg-black"></div>
+                        <div class="w-6 h-0.5 bg-black"></div>
+                    </div>
+                    <ul id="menu" class="hidden bg-red-700 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                        <li class="hover:text-gray-500">
+                            <a href="#">Homepage</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">About Me</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Languages</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Projects</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- intro content -->
+            <!-- image -->
+            <img class="absolute bottom-0 right-0 lg:left-0  mx-auto h-5/6 object-cover" src="./img/Pham.png" alt="">
+            <!-- circle -->
+            <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-red-900 rounded-full -z-10"></div>
+            <!-- animated text -->
+            <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 cl:text-7xl font-bold">
+                <span class="text-gray-700">Full-Stack</span>
+                <p class="text-red-800">Developer</p>
+            </div>
+            <!-- texts -->
+            <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3">
+                <h1 class="text-4xl font-bold text-red-800">Hello There</h1>
+                <p class="text-gray-400">
+                    I am An Pham, a full-stack developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.
+                </p>
+                <a href="#contact" class="bg-red-600 text-white text-xl p-3 py-2 font-semibold w-fit">Hire Me</a>
+            </div>
+            <!-- about -->
+        </div>
+            <!-- services -->
+            <div>
+                <div class="container mx-auto">
+                    <!-- top -->
+                    <div class="flex flex-col gap-3 items-center mt-6">
+                        <h1 class="text-red-600 font-bold">Projects</h1>
+                        <h1 class="text-3xl">Work in progress</h1>
+                        <p class="w-1/2 text-gray-800">Projects that I've been working on. Since we're never really done with any of our projects</p>
+                    </div>
+                    <!-- bottom -->
+                    <div class=" p-5 flex flex-wrap my-3">
+                        <!-- card -->
+                        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                            <img src="./img/dnd_encounter.png" class="w-105" alt="">
+                            <h1 class="font-medium text-lg">DND Encounter</h1>
+                            <p class="text-gray-400">A website where users can log in to create a character. Then the dungeon master can look up appropriate monsters for an encounter utilizing the player made characters.</p>
+                            <a class="text-red-600" href="">Github</a>
+                        </div>
+                        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                            <img src="./img/dnd_encounter.png" class="w-105" alt="">
+                            <h1 class="font-medium text-lg">DND Encounter</h1>
+                            <p class="text-gray-400">A website where users can log in to create a character. Then the dungeon master can look up appropriate monsters for an encounter utilizing the player made characters.</p>
+                            <a class="text-red-600" href="">Github</a>
+                        </div>
+                        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                            <img src="./img/dnd_encounter.png" class="w-105" alt="">
+                            <h1 class="font-medium text-lg">DND Encounter</h1>
+                            <p class="text-gray-400">A website where users can log in to create a character. Then the dungeon master can look up appropriate monsters for an encounter utilizing the player made characters.</p>
+                            <a class="text-red-600" href="">Github</a>
+                        </div>
+                        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3">
+                            <img src="./img/dnd_encounter.png" class="w-105" alt="">
+                            <h1 class="font-medium text-lg">DND Encounter</h1>
+                            <p class="text-gray-400">A website where users can log in to create a character. Then the dungeon master can look up appropriate monsters for an encounter utilizing the player made characters.</p>
+                            <a class="text-red-600" href="">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
